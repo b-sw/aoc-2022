@@ -1,7 +1,4 @@
 from enum import Enum
-import sys
-
-sys.setrecursionlimit(10000)
 
 coordsLines = open('input.txt').read().splitlines()
 
